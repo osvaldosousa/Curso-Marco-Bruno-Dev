@@ -1,0 +1,64 @@
+.box {
+  display: inline-block;
+  max-width: 600px;
+  background-color: gray;
+  box-shadow: 5px 5px 0px black;
+  text-align: center;
+  padding: 40px 44px;
+}
+
+.box .main-title{
+  margin-bottom: 28px;
+}
+
+.banner {
+  box-sizing: border-box;
+  background-image: url(../../assets/imagens/fotoMB.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-bottom: 10px solid black;
+  margin-bottom: 0px;
+  padding-top: 115px;
+  padding-left: 90px;
+
+  height: 630px;
+
+}
+
+.banner .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+}
+
+.banner .box {
+  margin-bottom: 40px;
+}
+
+.banner .navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* sections */
+
+.section {
+  display: block;
+  background:#F25A70;;
+}
+
+/* article */
+
+.skill-tec {
+  display: flex;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.skill-tec .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 25px;
+}

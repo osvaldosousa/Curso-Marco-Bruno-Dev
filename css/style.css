@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+:root {
+  --cor0:#7C5E99;
+  --cor1:hsla(351, 85%, 65%, 1);
+}
+
+header {
+  display: flex;
+  height: 80px;
+  background-color: var(--cor0);
+  border-bottom: 10px solid black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+section {
+  display: flex;
+}
+
+.logo {
+  border-radius: 10px;
+}
+
+
+.icon {
+  width: 80px;
+  height: 90px;
+}
+
+.progress-bar {
+  box-sizing: border-box;
+  border: 5px solid black;
+  height: 40px;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: white;
+}
+
+.progress-bar::-moz-progress-bar {
+  background-color: white;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #7C5E99;
+}
+
+.progress-bar::-moz-progress-value {
+  background-color: #7C5E99;
+}

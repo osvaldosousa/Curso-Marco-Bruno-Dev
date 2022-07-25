@@ -1,0 +1,17 @@
+.buttom {
+  display: inline-block;
+  background-color: var(--cor1);
+  box-shadow: 5px 5px 0px black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+  font-size: 20px;
+  margin-right: 0px;
+  padding: 18px 20px;
+}
+
+.buttom:hover {
+  background: rgba(235, 26, 57, 0.89);
+  transform: scale(1.08);
+}
