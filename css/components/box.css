@@ -1,7 +1,7 @@
 .box {
   display: inline-block;
   max-width: 600px;
-  background-color: gray;
+  background-color: #3A4042;
   box-shadow: 5px 5px 0px black;
   text-align: center;
   padding: 40px 44px;
@@ -13,7 +13,7 @@
 
 .banner {
   box-sizing: border-box;
-  background-image: url(../../assets/imagens/fotoMB.png);
+  background-image: url(../../assets/imagens/photobanner.png);
   background-repeat: no-repeat;
   background-size: 100%;
   border-bottom: 10px solid black;
@@ -42,18 +42,30 @@
 
 /* sections */
 
-.section {
+.main-section.-skills {
+  box-sizing: border-box;
   display: block;
-  background:#F25A70;;
+  background:#F25A70;
+  border-bottom: 10px solid #7C5E99;
 }
 
 /* article */
 
 .skill-tec {
   display: flex;
+  align-items: center;
   font-family: 'Press Start 2P', sans-serif;
   font-size: 25px;
   color: white;
+}
+
+.skill-tec .icon {
+  margin-right: 25px;
+  width: 90px;
+}
+
+.skill-tec .title {
+  margin-bottom: 16px;
 }
 
 .skill-tec .right {
@@ -61,4 +73,217 @@
   flex-direction: column;
   justify-content: space-around;
   margin-left: 25px;
+}
+
+/* div wrapper */
+
+.wrapperr-skil {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapperr-skil .skill-tec {
+  width: 420px;
+  margin-bottom: 40px;
+}
+
+.wrapperr-skil .skill-tec:nth-child(odd) {
+  margin-right: 100px;
+}
+
+.wrapperr-skil .progress-bar {
+  width: 320px;
+}
+
+/* section projetos */
+
+.main-section.-projetos {
+  box-sizing: border-box;
+  background-color: black;
+  padding-bottom: 100px;
+  border-bottom: 10px solid #F25A70;
+}
+
+.wrapper-projetos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.figure-projetos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7C5E99;
+  width: 280px;
+  height: 280px;
+  box-shadow: 10px 10px 0px white;
+}
+
+.figure-projetos.-blue {
+  background-color: #4C5B84;
+}
+
+/* section sobre */
+
+.BG-second {
+  background: #7C5E99;
+}
+/* varal do sobre */
+
+
+.main-varal {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.main-varal::after {
+  display: block;
+  position: absolute;
+  content: '';
+  left: 48px;
+  top: 38px;
+  height: 6px;
+  width: calc(100% - 100px);
+  background-color: black;
+}
+
+.main-varal::before {
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  content: '';
+  border: 2.5px dashed black;
+  left: 0px;
+  top: 38.2px;
+  width: 100%;
+}
+
+.main-varal .button-arrow {
+  position: absolute;
+  bottom: 70px;
+  transform: translateY(50%);
+}
+
+.main-varal .button-arrow.-left {
+  left: 15px;
+}
+
+.main-varal .button-arrow.-right {
+  right: 15px;
+}
+
+
+/* inferior do sobre */
+.main-descripition {
+  color: white;
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+.BD-black {
+  border-bottom: 10px solid black;
+}
+
+.node-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.node-card::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 0px;
+  width: 40px;
+  border: 2.5px dashed black;
+  transform: rotate(90deg) translateX(-60%);
+  bottom: 140px;
+}
+
+.node-card .title {
+  font-size: 25px;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #f25a70;
+  margin-bottom: 50px;
+}
+
+.node-card .logo-card {
+  display: flex;
+  align-items: center;
+  height: 140px;
+  border: 5px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #CEB02A;
+}
+
+.node-card.-clean .logo-card {
+  padding: 0;
+}
+
+.node-card.-color1 .logo-card {
+  background-color: #F25A70;
+}
+
+.main-varal .items {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-varal .elements {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 100ms ease-in-out ;
+}
+
+/* section contatos */
+
+.main-contatos {
+  background-color: #3A4042;
+}
+
+.main-label {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.main-input {
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  border: 5px solid black;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-input.-textarea {
+  height: 320px;
+}
+
+/* footer */
+.main-rodape {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main-rodape .rodape-itens {
+  margin-right: 20px;
+  margin-left: 20px;
 }

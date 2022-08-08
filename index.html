@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <link rel="shortcut icon" href="assets/icos/avatarMB.png" type="image/x-icon">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/components/title.css">
   <link rel="stylesheet" href="css/components/box.css">
-  <link rel="stylesheet" href="css/components/buttom.css">
+  <link rel="stylesheet" href="css/components/button.css">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
   <title>Marco Bruno</title>
 </head>
 <body>
   <header>
-      <section>
-        <img class="logo" src="assets/imagens/logoavatar marco bruno.png" alt="Avatar Do Marco Bruno">
+      <section class="section-header">
+        <img class="avatar-header" src="assets/icos/avatarMB.png" alt="Avatar Do Marco Bruno">
         <h1>MBruno</h1>
       </section>
       <nav>
@@ -24,33 +24,185 @@
         <a class="itens-nav" href="">Prjetos</a>
         <a class="itens-nav" href="">Contatos</a>
         <a class="itens-nav" href="">Sobre</a>
-        <a class="buttom" href="" lang="en">Download CV</a>
+        <a class="main-button" href="" lang="en">Download CV</a>
       </nav>
   </header>
-      <section class="banner" >
-            <div class="wrapper">
-              <div class="box" >
-                <h2 class="main-title">Marco Bruno</h2>
-                <h3 class="main-subtitle">Desenvolvedor FrontEnd</h3>
-              </div>
-                          
-              <div class="navigation">
-                <a class="buttom bt1" href="#">Contatos</a>
-                <a class="buttom bt1" href="#">Download CV</a>
-              </div>
-            </div>
-      </section>
-      <section class="section">
-        <h2 class="title -second">Skills</h2>
-        <article class="skill-tec">
-          <img class="icon" src="assets/icos/ico_html5html.png" alt="ico do html5">
-          <div class="right">
-            <h3 class="title">HTML</h3>
-            <progress class="progress-bar w3-purple" max="100" value="70">
-              70%
-            </progress>
+  <section class="banner" >
+        <div class="wrapper">
+          <div class="box" >
+            <h2 class="main-title">Marco Bruno</h2>
+            <h3 class="main-subtitle">Desenvolvedor FrontEnd</h3>
           </div>
-        </article>
-      </section>
+                      
+          <div class="navigation">
+            <a class="main-button bt1" href="#">Contatos</a>
+            <a class="main-button bt1" href="#">Download CV</a>
+          </div>
+        </div>
+  </section>
+  <section class="main-section -skills">
+    <h2 class="title -second">Skills</h2>
+    <div class="wrapperr-skil">
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_html5.png" alt="ico do html5">
+        <div class="right">
+          <h3 class="title">HTML</h3>
+          <progress class="progress-bar w3-purple" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_nodejs.png" alt="ico do nodejs">
+        <div class="right">
+          <h3 class="title">NODEJS</h3>
+          <progress class="progress-bar w3-purple" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_css3.png" alt="ico do css">
+        <div class="right">
+          <h3 class="title">CSS3</h3>
+          <progress class="progress-bar w3-purple" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_tdd.png" alt="ico do tdd">
+        <div class="right">
+          <h3 class="title">TDD</h3>
+          <progress class="progress-bar w3-purple" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_js.png" alt="ico JavaScript">
+        <div class="right">
+          <h3 class="title">JavaScript</h3>
+          <progress class="progress-bar w3-purple" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_restapi.png" alt="ico da api">
+        <div class="right">
+          <h3 class="title">API</h3>
+          <progress class="progress-bar w3-purple" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_react.png" alt="ico do react">
+        <div class="right">
+          <h3 class="title">REACT</h3>
+          <progress class="progress-bar w3-purple" max="100" value="70">
+            70%
+          </progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="assets/icos/ico_ux.png" alt="ico da ux">
+        <div class="right">
+          <h3 class="title">US</h3>
+          <progress class="progress-bar w3-purple" max="100" value="50">
+            50%
+          </progress>
+        </div>
+      </article>
+    </div>
+  </section>
+    <section class="main-section -projetos">
+    <h2 class="title -second">Projetos</h2>
+    <div class="wrapper-projetos">
+        <figure class="figure-projetos">
+          <img class="fotos-projetos" src="assets/imagens/logo-firedlabs.png" alt="">
+        </figure>
+        <figure class="figure-projetos -blue">
+          <img class="fotos-projetos" src="assets/imagens/logo-collabcode.png" alt="">
+        </figure>
+        <figure class="figure-projetos">
+        <img class="fotos-projetos" src="assets/imagens/portfoliomarco.png" alt="">
+        </figure>
+  </section>
+  <section class="main-section -sobre BG-second BD-black">
+    <h2 class="title -second">Sobre</h2>
+    <section class="main-varal">
+      <button class="button-arrow -left"><img class="main-ico -sobre -left" src="assets/icos/seta-direcional.svg" alt="seta esquerda"> </button>
+      <div class="items">
+        <div class="elements">
+          <figure class="node-card">
+            <figcaption class="title">2012</figcaption>
+            <div class="logo-card">
+              <img class="img-sobre" src="assets/imagens/logo-locaweb.png" alt="">
+            </div>
+          </figure>
+          <figure class="node-card -clean">
+            <figcaption class="title">2014</figcaption>
+            <div class="logo-card">
+              <img class="img-sobre" src="assets/imagens/logo-caelum.png" alt="">
+            </div>
+          </figure>
+          <figure class="node-card -color1">
+            <figcaption class="title">2016</figcaption>
+            <div class="logo-card">
+              <img class="img-sobre" src="assets/imagens/logo-getninjas.png" alt="">
+            </div>
+          </figure>
+          <figure class="node-card -clean">
+            <figcaption class="title">2017</figcaption>
+            <div class="logo-card">
+              <img class="img-sobre" src="assets/imagens/logo-caelum.png" alt="">
+            </div>
+          </figure>
+          <figure class="node-card">
+            <figcaption class="title">2018</figcaption>
+            <div class="logo-card">
+              <img class="img-sobre" src="assets/imagens/logo-impulso.png" alt="">
+            </div>
+          </figure>
+          <figure class="node-card -color1">
+            <figcaption class="title">2019</figcaption>
+            <div class="logo-card">
+              <img class="img-sobre" src="assets/imagens/logo-collabcode-pq.png" alt="">
+            </div>
+          </figure>
+        </div>
+      </div>
+      <button class="button-arrow -right"> <img class="main-ico -sobre -right" src="assets/icos/seta-direcional.svg" alt="seta direita"> </button>
+    </section>
+    <p class="main-descripition">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
+  </section>
+  <section class="main-contatos">
+    <form action="">
+      <label class="main-label" for="name">Nome</label>
+      <input class="main-input" id="name" type="text">
+
+      <label class="main-label" for="email">Email</label>
+      <input class="main-input" id="email" type="email">
+
+      <label class="main-label" for="message">Menssagem</label>
+      <textarea class="main-input -textarea" id="message"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer class="main-rodape">
+      <a class="rodape-itens" href="https:twitter.com/marcobrunodev" target="_blank">
+        <img src="assets/icos/icon-twitter.png" alt="Logo Tiwtter">
+      </a>
+      <a class="rodape-itens" href="https:youtube.com/marcobrunodev" target="_blank">
+        <img src="assets/icos/icon-youtube.png" alt="Logo YouTube">
+      </a>
+      <a class="rodape-itens" href="https:github.com/osvaldosousa" target="_blank">
+        <img src="assets/icos/icon-discord.png" alt="Logo Discord">
+      </a>
+  </footer>
+  <script src="js/varal.js"></script>
 </body>
 </html>

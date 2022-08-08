@@ -49,8 +49,9 @@ nav {
 
 .title.-second {
   font-family: 'Press Start 2P', sans-serif;
+  font-size: 40px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   color: white;
   text-shadow: none;
   text-align: center;

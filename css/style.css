@@ -15,38 +15,21 @@ header {
   padding: 10px 20px;
 }
 
-section {
+.section-header {
   display: flex;
 }
 
-.logo {
+.avatar-header {
   border-radius: 10px;
 }
 
-
-.icon {
-  width: 80px;
-  height: 90px;
-}
-
 .progress-bar {
+  background-color: white;
   box-sizing: border-box;
   border: 5px solid black;
   height: 40px;
 }
 
-.progress-bar::-webkit-progress-bar {
-  background-color: white;
-}
-
-.progress-bar::-moz-progress-bar {
-  background-color: white;
-}
-
-.progress-bar::-webkit-progress-value {
-  background-color: #7C5E99;
-}
-
-.progress-bar::-moz-progress-value {
+.progress-bar::-moz-progress-bar, .progress-bar::-webkit-progress-bar {
   background-color: #7C5E99;
 }
